@@ -1,4 +1,6 @@
 import Application = PIXI.Application;
+import * as jQuery from "jquery";
+import * as PIXI from "pixi.js";
 
 export let application: Application;
 /**
@@ -11,6 +13,7 @@ export class Main {
         //設定場景
         let gameCanvasContext = (<HTMLCanvasElement>jQuery("#gameCanvas")[0]);
         application = new PIXI.Application(960, 540, { backgroundColor: 0x000000, view: gameCanvasContext });
+
 
         //貼一張圖片
         var bunny = PIXI.Sprite.fromImage('assets/bunny.png');
