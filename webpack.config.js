@@ -12,8 +12,8 @@ const webpackConfig = {
     extensions: ['.ts', '.tsx', '.js', '.json', 'd.ts']
   },
   externals: {
-    'jQuery': true,
-    'pixi.js': true,
+    'jquery': 'jQuery',
+    'pixi.js': 'PIXI',
   },
   module: {
     rules: [
