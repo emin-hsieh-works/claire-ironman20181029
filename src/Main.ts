@@ -33,4 +33,5 @@ export class Main {
         application.view.style.height = scale*540 + "px"; 
          
     } 
-}
+}const game = new Main();
+game.initGame();
