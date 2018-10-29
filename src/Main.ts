@@ -1,6 +1,6 @@
-import Application = PIXI.Application;
+
 import * as jQuery from "jquery";
-import * as PIXI from "pixi.js";
+import { Application } from "pixi.js";
 
 export let application: Application;
 /**
