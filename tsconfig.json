@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "module": "system",
+        "target": "es5",
         "noImplicitAny": false,
         "removeComments": true,
         "preserveConstEnums": true,
@@ -10,6 +10,8 @@
         "src/**/*"
     ],
     "exclude": [
-        "node_modules"
+        "node_modules",
+        "build",
+        "dist"
     ]
 }
